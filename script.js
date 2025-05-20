@@ -1574,4 +1574,109 @@ const seven = document.getElementById("seven");
 // function name(x){
 //   return x;
 // }
-console.log("hello");
+// ====1====
+// for (i = 0; i <= 7; i++) {
+//   if (i === 3 || i === 6) continue;
+//   console.log(i);
+// }
+// ====2====
+// for (i = 1; i <= 7; i++) {
+//   if (i === 4) break;
+//   console.log(i);
+// }
+// ====3====
+// for (i = 0; i <= 10; i++) {
+//   if (i % 2 !== 0) continue;
+//   console.log(i);
+// }
+// ====4====
+// let i = 0;
+// do {
+//   i++;
+//   if (i === 4) continue;
+//   console.log(i);
+// } while (i < 5);
+// ====5====
+// let i = 0;
+// while (i <= 5) {
+//   if (i === 4) continue;
+//   console.log(i);
+//   i++;
+// }
+// ====6====
+// for (let i = 0; i <= 10; i++) {
+//   if (i === 7) continue;
+//   console.log(i);
+// }
+// ====7====
+// function skipValue(skip) {
+//   for (i = 0; i <= 10; i++) {
+//     if (i === skip) continue;
+//     console.log(i);
+//   }
+// }
+// skipValue(5);
+// ====8====
+// function stopAt(val) {
+//   for (let i = 1; i <= 10; i++) {
+//     if (i === val) break;
+//     console.log(i);
+//   }
+// }
+// stopAt(8);
+// ====9====
+// function rememberName(name) {
+//   return function () {
+//     console.log("Remembered: " + name);
+//   };
+// }
+// const remember = rememberName("Hello");
+// remember();
+// ====10====
+// function counter() {
+//   let count = 0;
+//   return function () {
+//     count++;
+//     console.log(count);
+//   };
+// }
+// const countUp = counter();
+// countUp();
+// countUp();
+// ====11====
+// const greet = () => () => "hi";
+// console.log(greet()());
+// ====12====
+// fn();
+// const fn = function () {
+//   console.log("hello");
+// };
+// ====13====
+// console.log(greet());
+// const greet = () => "hello";
+// ====14====
+// hello();
+// function hello() {
+//   return console.log("hello");
+// }
+// ====15====
+// function sqrt(n) {
+//   return n * n;
+// }
+// const sqrt = (n) => n * n;
+// console.log(sqrt(7));
+// ====16====
+// const greet = (name1, name2)=> `Hello ${name1} and ${name2}`;
+// console.log(greet("Lionel", "Neymar"));
+// ====17====
+// function greet(name = "Lionel") {
+//   return `Hello ${name}`;
+// }
+// console.log(greet());
+// ====18====
+// function testScope() {
+//   let hidden = "secret";
+//   return console.log(hidden);
+// }
+// testScope()
+// console.log(hidden);
