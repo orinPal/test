@@ -1574,3 +1574,4 @@ const seven = document.getElementById("seven");
 // function name(x){
 //   return x;
 // }
+console.log("hello");
