@@ -1277,9 +1277,9 @@ const seven = document.getElementById("seven");
 // console.log(countVowels(str));
 
 // ===== QST 3 =====
-const num = [
-  0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
-];
+// const num = [
+//   0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+// ];
 
 // function evenNum(arr) {
 //   return arr.filter((val) => val % 2 === 0);
@@ -1372,15 +1372,15 @@ const num = [
 // ["1", "2", "3"].map(x => Number(x))
 
 // ===== QST 7 =====
-const person = {
-  "Lionel Messi": 36,
-  "Cristiano Ronaldo": 39,
-  "Kylian Mbappe": 25,
-  "Neymar Jr": 32,
-  "Luka Modric": 38,
-  "Toni Kroos": 34,
-  "Federico Valverde": 26,
-};
+// const person = {
+//   "Lionel Messi": 36,
+//   "Cristiano Ronaldo": 39,
+//   "Kylian Mbappe": 25,
+//   "Neymar Jr": 32,
+//   "Luka Modric": 38,
+//   "Toni Kroos": 34,
+//   "Federico Valverde": 26,
+// };
 // function sortPerson(obj) {
 //   let result = [];
 //   let arr = Object.entries(obj);
@@ -1396,13 +1396,181 @@ const person = {
 // }
 
 // console.log(sortPerson(person));
-function sortPerson(obj) {
-  return Object.entries(obj)
-    .filter(([name, age]) => age > 30)
-    .map(([name, age]) => name);
-}
-console.log(sortPerson(person));
+// function sortPerson(obj) {
+//   return Object.entries(obj)
+//     .filter(([name, age]) => age > 30)
+//     .map(([name, age]) => name);
+// }
+// console.log(sortPerson(person));
 
 // ===== QST 8 =====
+
+// let fruits = [
+//   "apple",
+//   "banana",
+//   "cherry",
+//   "mango",
+//   "orange",
+//   "grape",
+//   "pineapple",
+//   "kiwi",
+//   "watermelon",
+//   "papaya",
+// ];
+
+// function getLargestStr(arr) {
+//   return arr.reduce(
+//     (total, val) => val.length > total.length  ? val : total
+//   );
+// }
+// console.log(getLargestStr(fruits));
+// function getLargestStr(arr) {
+//   return arr.reduce((total, value) =>
+//     total.length < value.length ? value : total
+//   );
+// }
+// console.log(getLargestStr(fruits));
+
 // ===== QST 9 =====
+// const num1 = [1, 2, 5, 7, 9];
+// const num2 = [3, 4, 5, 7, 9, 8];
+// function newArr(arr1, arr2) {
+//   const result = [];
+//   arr1.forEach(function (val) {
+//     if (arr2.includes(val)) {
+//       result.push(val);
+//     }
+//   });
+//   return result;
+// }
+// function newArr(arr1, arr2) {
+//   return arr1.filter((val) => arr2.includes(val));
+// }
+// console.log(newArr(num1, num2));
+
 // ===== QST 10 =====
+
+// const arr = [[1, [2, 3, 4], 5, 6, 7, [8, [9, 10, [11, 12,[15]]]]], 13, 14];
+// console.log(flatArr(arr));
+
+// function flatArr(arr){
+// return arr.flat(Infinity)
+// }
+
+// ===== QST 11 =====
+// let string = "i love javascript. this is a great programming language.";
+// function toCapitalize(str) {
+//   let result = str.split(" ").map((val) => {
+//     if(val.length===0){return val}
+//     return val[0].toUpperCase() + val.slice(1)
+//   });
+//   return result.join(" ");
+// }
+// console.log(toCapitalize(string));
+
+// ===== QST 12 =====
+// ===== QST 13 =====
+// ===== QST 14 =====
+// ===== QST 15 =====
+// ===== QST 16 =====
+// ===== QST 17 =====
+// ===== QST 18 =====
+// ===== QST 19 =====
+// ===== QST 20 =====
+// let color = "black";
+
+// switch (color) {
+//   case "red":
+//     console.log("Color is red");
+//     break;
+//   case "blue":
+//     console.log("Color is blue");
+//     break;
+//   case "green":
+//     console.log("Color is green");
+//     break;
+//   default:
+//     console.log("Color not recognized");
+// }
+
+// let age = 18;
+
+// switch (true) {
+//   case (age < 18):
+//     console.log("age less than 18");
+//     break;
+//   case (age === 18):
+//     console.log("age is 18");
+//     break;
+//   case (age > 18):
+//     console.log("age is greater than 18");
+// }
+// for (let i = 0; i <= 10; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+// let i = 1;
+// while (i <= 5) {
+//   if (i === 4) {
+//     break;
+//   }
+//   console.log(i);
+//   i++;
+// }
+// function loop(x) {
+//   for (let i = 0; i < x; i++) {
+//     if (i === 5) {
+//       break;
+//     }
+//     console.log(i);
+//   }
+// }
+// loop(10);
+
+// function closureFn(param) {
+//   param = param + " 1st";
+//   function innerFn(a) {
+//     console.log(a);
+//   }
+//   innerFn(param);
+// }
+// closureFn("hello");
+
+// let x = 0;
+// function num() {
+//   function increapment(n) {
+//     x = n++;
+//   }
+//   increapment(x);
+//   return console.log(x);
+// }
+// num();
+// num();
+
+// function outer() {
+//   return function inner() {
+//     return "Hello from inner!";
+//   };
+// }
+// const innerFunc = outer();
+// console.log(innerFunc());
+
+// function fn(x) {
+//   if (!x) {
+//     return "input not provided";
+//   }
+//   return "input provided";
+// }
+// console.log(fn());
+
+// let x = "hello";
+// function showX() {
+//   return x + " world!";
+// }
+// console.log(showX());
+
+// console.log(name(6));
+// function name(x){
+//   return x;
+// }
