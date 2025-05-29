@@ -1680,3 +1680,51 @@ const seven = document.getElementById("seven");
 // }
 // testScope()
 // console.log(hidden);
+
+// let set = new Set(["a", "b", "c", "d"]);
+// set.add("a")
+// console.log(set);
+
+// console.log(parseInt("20"));
+
+// console.log(Math.PI);
+
+// let x = 4.7;
+// console.log(Math.round(x));
+// console.log(Math.ceil(x));
+
+// console.log(Math.sin(-4));
+
+// console.log(8**2);
+// let num = Math.pow(8, 2);
+// console.log(num);
+// console.log(Math.sqrt(num));
+
+// let num = -4.7;
+// console.log(Math.abs(num));
+
+// let deg = 0;
+// let x = deg * (Math.PI / 180);
+// console.log(Math.sin(x));
+// console.log(Math.cos(x));
+
+// const arr = [80, 100, 130, 150];
+// console.log(Math.min(80, 100, 130, 150));
+
+// console.log(Math.random());
+
+// console.log(Math.log2(8));
+
+// console.log(Math.pow(2, 3));
+
+// console.log(Math.cbrt(8));
+
+// let num = 4.7;
+// let x = num.toFixed(2);
+// console.log(Number(x).toPrecision(4));
+
+// let x = [];
+// console.log(Boolean(x));
+
+// let date = new Date();
+// console.log(typeof date.toString()); 
